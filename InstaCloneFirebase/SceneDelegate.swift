@@ -18,11 +18,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
-        
+        //Kullanıcı daha önceden uygulamaya giriş yaptı mı yapmadı mı sorgusunu çekiyoruz.
         let currentUser = Auth.auth().currentUser
         if currentUser != nil{
+            //Uygulamayı eğer kullanıcı daha önceden giriş yaptıysa Main.storyboard'tan ayarladığımız herhangi bir viewController görünümüne atadığımız 'StoryBoardName' değerini bir değişkene atıyoruz.
             let board = UIStoryboard(name: "Main", bundle: nil)
+            //Ve tabBar adında bir değişkene board'tan UITabBarController'a CAST edilmiş storyboard'umuzu çekiyoruz.
             let tabBar = board.instantiateViewController(withIdentifier: "tabBar") as! UITabBarController
+            //Window sınıfından ise root'unu ilk açılacak olan ekran olarak belirtmek için kullanıyoruz.
             window?.rootViewController = tabBar
         }
         
