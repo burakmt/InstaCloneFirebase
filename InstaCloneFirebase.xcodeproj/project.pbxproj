@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		C518DA0C238811AE007E61BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C518DA0B238811AE007E61BC /* Assets.xcassets */; };
 		C518DA0F238811AE007E61BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C518DA0D238811AE007E61BC /* LaunchScreen.storyboard */; };
 		C518DA172388140C007E61BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C518DA162388140C007E61BC /* GoogleService-Info.plist */; };
+		C518DA1923884C9B007E61BC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518DA1823884C9B007E61BC /* FeedViewController.swift */; };
+		C518DA1B23884CA4007E61BC /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518DA1A23884CA4007E61BC /* UploadViewController.swift */; };
+		C518DA1D23884CB0007E61BC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518DA1C23884CB0007E61BC /* SettingsViewController.swift */; };
 		DFC2D50FE1B2476A0477C3C0 /* Pods_InstaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B681B92B5C65927DA1824E0 /* Pods_InstaCloneFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		C518DA0E238811AE007E61BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C518DA10238811AE007E61BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C518DA162388140C007E61BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C518DA1823884C9B007E61BC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C518DA1A23884CA4007E61BC /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		C518DA1C23884CB0007E61BC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F83C97F69E3FA118BB8C7327 /* Pods-InstaCloneFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.debug.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +87,9 @@
 				C518DA0D238811AE007E61BC /* LaunchScreen.storyboard */,
 				C518DA10238811AE007E61BC /* Info.plist */,
 				C518DA162388140C007E61BC /* GoogleService-Info.plist */,
+				C518DA1823884C9B007E61BC /* FeedViewController.swift */,
+				C518DA1A23884CA4007E61BC /* UploadViewController.swift */,
+				C518DA1C23884CB0007E61BC /* SettingsViewController.swift */,
 			);
 			path = InstaCloneFirebase;
 			sourceTree = "<group>";
@@ -91,7 +100,6 @@
 				F83C97F69E3FA118BB8C7327 /* Pods-InstaCloneFirebase.debug.xcconfig */,
 				A22744C40EFCC8A97178C944 /* Pods-InstaCloneFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,8 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C518DA07238811AD007E61BC /* ViewController.swift in Sources */,
+				C518DA1B23884CA4007E61BC /* UploadViewController.swift in Sources */,
 				C518DA03238811AD007E61BC /* AppDelegate.swift in Sources */,
+				C518DA1923884C9B007E61BC /* FeedViewController.swift in Sources */,
 				C518DA05238811AD007E61BC /* SceneDelegate.swift in Sources */,
+				C518DA1D23884CB0007E61BC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
