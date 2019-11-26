@@ -65,7 +65,7 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
                             //Key-Value mantığında kayıt yapıldığından dolayı bir String-Any dizisi oluşturuyoruz.
                             let firestorePost = [
                                 "imageUrl" : imageUrl!,
-                                "postedBy" : Auth.auth().currentUser!.email,
+                                "postedBy" : Auth.auth().currentUser!.email!,
                                 "postComment" : self.commitText.text!,
                                 "date" : FieldValue.serverTimestamp(),
                                 "likes" : 0

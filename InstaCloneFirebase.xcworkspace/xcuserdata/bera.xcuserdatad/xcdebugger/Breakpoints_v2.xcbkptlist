@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "61DAECC1-BC0A-4C74-88DE-2BCD56838CFB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1D50005-21D7-4C89-A0DF-E81DD40E59B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaCloneFirebase/FeedCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "FeedCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A1D50005-21D7-4C89-A0DF-E81DD40E59B4 - ab207593e641f6e2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstaCloneFirebase.FeedCell.userMail.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "InstaCloneFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bera/Desktop/iOS%20Completed/InstaCloneFirebase/InstaCloneFirebase/FeedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "A1D50005-21D7-4C89-A0DF-E81DD40E59B4 - a470a8d1bb3b2f6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstaCloneFirebase.FeedCell.userMail.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "InstaCloneFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bera/Desktop/iOS%20Completed/InstaCloneFirebase/InstaCloneFirebase/FeedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "A1D50005-21D7-4C89-A0DF-E81DD40E59B4 - c764bd1effd199e1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstaCloneFirebase.FeedCell.userMail.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "InstaCloneFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bera/Desktop/iOS%20Completed/InstaCloneFirebase/InstaCloneFirebase/FeedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "A1D50005-21D7-4C89-A0DF-E81DD40E59B4 - e79d58698dde023f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstaCloneFirebase.FeedCell.userMail.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "InstaCloneFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bera/Desktop/iOS%20Completed/InstaCloneFirebase/InstaCloneFirebase/FeedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "A1D50005-21D7-4C89-A0DF-E81DD40E59B4 - ce730ce3037c7887"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstaCloneFirebase.FeedCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; InstaCloneFirebase.FeedCell"
+                  moduleName = "InstaCloneFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bera/Desktop/iOS%20Completed/InstaCloneFirebase/InstaCloneFirebase/FeedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "A1D50005-21D7-4C89-A0DF-E81DD40E59B4 - cddec6eabab05d3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstaCloneFirebase.FeedCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;InstaCloneFirebase.FeedCell&gt;"
+                  moduleName = "InstaCloneFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bera/Desktop/iOS%20Completed/InstaCloneFirebase/InstaCloneFirebase/FeedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

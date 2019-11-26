@@ -17,6 +17,7 @@
 		C518DA1923884C9B007E61BC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518DA1823884C9B007E61BC /* FeedViewController.swift */; };
 		C518DA1B23884CA4007E61BC /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518DA1A23884CA4007E61BC /* UploadViewController.swift */; };
 		C518DA1D23884CB0007E61BC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C518DA1C23884CB0007E61BC /* SettingsViewController.swift */; };
+		C5ED1557238BFB6500035FC1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ED1556238BFB6500035FC1 /* FeedCell.swift */; };
 		DFC2D50FE1B2476A0477C3C0 /* Pods_InstaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B681B92B5C65927DA1824E0 /* Pods_InstaCloneFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		C518DA1823884C9B007E61BC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C518DA1A23884CA4007E61BC /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		C518DA1C23884CB0007E61BC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C5ED1556238BFB6500035FC1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F83C97F69E3FA118BB8C7327 /* Pods-InstaCloneFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.debug.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				C518DA1823884C9B007E61BC /* FeedViewController.swift */,
 				C518DA1A23884CA4007E61BC /* UploadViewController.swift */,
 				C518DA1C23884CB0007E61BC /* SettingsViewController.swift */,
+				C5ED1556238BFB6500035FC1 /* FeedCell.swift */,
 			);
 			path = InstaCloneFirebase;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5ED1557238BFB6500035FC1 /* FeedCell.swift in Sources */,
 				C518DA07238811AD007E61BC /* ViewController.swift in Sources */,
 				C518DA1B23884CA4007E61BC /* UploadViewController.swift in Sources */,
 				C518DA03238811AD007E61BC /* AppDelegate.swift in Sources */,
